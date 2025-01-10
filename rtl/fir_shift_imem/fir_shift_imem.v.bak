@@ -1,0 +1,28 @@
+module fir_shift_imem (
+	input wire clk, 	// clk2 = 640khz
+	input wire reset,
+	input wire [15:0] data_in,
+	input wire [5:0] read_addr,	// read address
+	output reg [15:0] data_out	// read data
+);
+	reg [15:0] imem[0:63];
+	integer i;
+
+	always @(posedge clk or negedge reset) begin
+		if (reset) begin
+			for (i = 0; i < 64; i = i + 1) begin
+				imem[i] <= 16'b0;
+			end
+
+		end else begin
+			for (i = 63; i > 0; i = i - 1) begin
+				imem[i] <= imem[i-1];
+			end
+			imem[0] <= data_in;
+		end
+	end
+
+	always @(*) begin
+		data_out = imem[read_addr];
+	end
+endmodule

@@ -1,0 +1,20 @@
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_core/fir_core.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:16:02 on Dec 08,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_core/fir_core.v 
+# -- Compiling module fir_core
+# 
+# Top level modules:
+# 	fir_core
+# End time: 14:16:02 on Dec 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_core/fir_core.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 15:56:23 on Dec 08,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_core/fir_core.v 
+# -- Compiling module fir_core
+# 
+# Top level modules:
+# 	fir_core
+# End time: 15:56:23 on Dec 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

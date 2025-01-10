@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu
+vfir_alu
+2/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu.v
+Z0 !s110 1731873847
+!i10b 1
+!s100 MiPd0_g_kn4nMkA7c0UXM1
+IL8F_YmGH>E5WHb:1Z^@9S1
+Z1 d/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu
+w1731873843
+8/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu.v
+F/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu.v
+!i122 520
+L0 2 190
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OP;L;2024.2;79
+r1
+!s85 0
+31
+!s108 1731873846.000000
+!s107 /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu.v|
+!s90 -reportprogress|300|-work|work|/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vtb_fir_alu
+2/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v
+R0
+!i10b 1
+!s100 ;I6`K3mcAf8?caFD1R<522
+IXJPz0S^9dCk:S[^<JKS@?3
+R1
+w1731871476
+8/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v
+F/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v
+!i122 521
+L0 4 81
+R2
+R3
+r1
+!s85 0
+31
+!s108 1731873847.000000
+!s107 /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v|
+!s90 -reportprogress|300|-work|work|/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v|
+!i113 1
+R4
+R5

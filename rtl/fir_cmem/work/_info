@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem
+vcmem
+Z1 2/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/fir_cmem.v
+Z2 !s110 1732288863
+!i10b 1
+!s100 I09Q>8lZ7a:[Zb]ShDlAa0
+IE;2j9NA>YVFan01DjaL<W0
+R0
+w1732288861
+8/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/fir_cmem.v
+F/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/fir_cmem.v
+Z3 8./../../rtl/CMEM/CMEM.v
+Z4 F./../../rtl/CMEM/CMEM.v
+!i122 1
+L0 5 23
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OP;L;2024.2;79
+r1
+!s85 0
+31
+Z7 !s108 1732288863.000000
+!s107 ./../../rtl/CMEM/CMEM.v|/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/fir_cmem.v|
+Z8 !s90 -reportprogress|300|-work|work|/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/fir_cmem.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vCMEM
+R1
+R2
+!i10b 1
+!s100 3z0f;PJQZCcWB9eI_V^kW0
+IY=FMKV0KAKnz?DLPezbWM0
+R0
+w1732211607
+R3
+R4
+!i122 1
+L0 53 1153
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 ./../../rtl/CMEM/CMEM.v|/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/fir_cmem.v|
+R8
+!i113 1
+R9
+R10
+n@c@m@e@m

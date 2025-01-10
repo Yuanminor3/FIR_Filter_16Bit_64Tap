@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem
+vCMEM
+Z1 2/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+Z2 !s110 1732238448
+!i10b 1
+!s100 3z0f;PJQZCcWB9eI_V^kW0
+I=T?W30O`C>9JHbfzOIo;31
+R0
+w1732211607
+Z3 8./../../rtl/fir_cmem/CMEM.v
+Z4 F./../../rtl/fir_cmem/CMEM.v
+!i122 83
+L0 53 1153
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OP;L;2024.2;79
+r1
+!s85 0
+31
+Z7 !s108 1732238448.000000
+!s107 ./../../rtl/fir_cmem/CMEM.v|/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v|
+Z8 !s90 -reportprogress|300|-work|work|/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+n@c@m@e@m
+vCMEM_Testbench
+R1
+R2
+!i10b 1
+!s100 NdD`zXR_3P5UjhHDHT7>]0
+IaA]fPzm]:PRV7;Vdl9`FV0
+R0
+w1732238445
+8/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+F/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+R3
+R4
+!i122 83
+L0 6 83
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 ./../../rtl/fir_cmem/CMEM.v|/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v|
+R8
+!i113 1
+R9
+R10
+n@c@m@e@m_@testbench

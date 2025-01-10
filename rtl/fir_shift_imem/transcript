@@ -1,0 +1,151 @@
+vlib work
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:43:43 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v 
+# -- Compiling module fir_shift_imem
+# ** Warning: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(5): (vlog-13314) Defaulting port 'imem' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(6): 'Port' must not be declared to be an array: imem.
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(6): Port mode is incompatible with declaration: imem
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(18): (vlog-2730) Undefined variable: 'mem'.
+# End time: 21:43:43 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:44:03 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v 
+# -- Compiling module fir_shift_imem
+# ** Warning: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(5): (vlog-13314) Defaulting port 'imem' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(6): 'Port' must not be declared to be an array: imem.
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(6): Port mode is incompatible with declaration: imem
+# End time: 21:44:03 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:44:04 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v 
+# -- Compiling module fir_shift_imem
+# ** Warning: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(5): (vlog-13314) Defaulting port 'imem' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(6): 'Port' must not be declared to be an array: imem.
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(6): Port mode is incompatible with declaration: imem
+# End time: 21:44:04 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:49:29 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v 
+# -- Compiling module fir_shift_imem
+# ** Note: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(25): (vlog-2739) Empty SystemVerilog attributes list entry found.
+# ** Error: (vlog-13069) /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(25): near ")": syntax error, unexpected ')', expecting *).
+# End time: 21:49:29 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:49:53 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v 
+# -- Compiling module fir_shift_imem
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(26): (vlog-2730) Undefined variable: 'mem'.
+# End time: 21:49:53 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:49:55 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v 
+# -- Compiling module fir_shift_imem
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v(26): (vlog-2730) Undefined variable: 'mem'.
+# End time: 21:49:55 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:50:03 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v 
+# -- Compiling module fir_shift_imem
+# 
+# Top level modules:
+# 	fir_shift_imem
+# End time: 21:50:03 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 22:16:42 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v 
+# -- Compiling module fir_shift_imem_tb
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v(24): (vlog-2730) Undefined variable: 'data_addr'.
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v(26): Declarations not allowed in unnamed block.
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v(29): Illegal declaration after the statement near line '24'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 22:16:42 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 22:17:32 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v 
+# -- Compiling module fir_shift_imem_tb
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v(24): (vlog-2730) Undefined variable: 'read'.
+# ** Error: (vlog-13069) /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v(24): near "-": syntax error, unexpected '-'.
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v(26): Declarations not allowed in unnamed block.
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v(29): Illegal declaration after the statement near line '24'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 22:17:32 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 22:17:47 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v 
+# -- Compiling module fir_shift_imem_tb
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v(26): Declarations not allowed in unnamed block.
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v(29): Illegal declaration after the statement near line '24'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 22:17:47 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# Load canceled
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 22:18:32 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v 
+# -- Compiling module fir_shift_imem_tb
+# 
+# Top level modules:
+# 	fir_shift_imem_tb
+# End time: 22:18:32 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 22:18:52 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem.v 
+# -- Compiling module fir_shift_imem
+# 
+# Top level modules:
+# 	fir_shift_imem
+# End time: 22:18:52 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 22:18:53 on Dec 04,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_shift_imem/fir_shift_imem_tb.v 
+# -- Compiling module fir_shift_imem_tb
+# 
+# Top level modules:
+# 	fir_shift_imem_tb
+# End time: 22:18:53 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fir_shift_imem_tb
+# vsim work.fir_shift_imem_tb 
+# Start time: 22:19:01 on Dec 04,2024
+# //  ModelSim DE 2024.2 May 20 2024 Linux 4.18.0-553.30.1.el8_10.x86_64
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading work.fir_shift_imem_tb
+# Loading work.fir_shift_imem
+run
+run
+run
+# End time: 22:41:35 on Dec 04,2024, Elapsed time: 0:22:34
+# Errors: 0, Warnings: 0

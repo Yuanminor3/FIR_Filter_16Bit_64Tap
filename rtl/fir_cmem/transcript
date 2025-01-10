@@ -1,0 +1,22 @@
+# Load canceled
+vlib work
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/fir_cmem.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:33 on Nov 22,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/fir_cmem.v 
+# -- Compiling module CMEM
+# -- Compiling module cmem
+# ** Error: (vlog-13069) /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/fir_cmem.v(8): near ";": syntax error, unexpected ';', expecting ')'.
+# End time: 10:20:34 on Nov 22,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/fir_cmem.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:03 on Nov 22,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/fir_cmem.v 
+# -- Compiling module CMEM
+# -- Compiling module cmem
+# 
+# Top level modules:
+# 	cmem
+# End time: 10:21:03 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

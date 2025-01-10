@@ -1,0 +1,107 @@
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:37:54 on Nov 17,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu.v 
+# -- Compiling module fir_alu
+# 
+# Top level modules:
+# 	fir_alu
+# End time: 14:37:54 on Nov 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:37:55 on Nov 17,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v 
+# -- Compiling module tb_fir_alu
+# 
+# Top level modules:
+# 	tb_fir_alu
+# End time: 14:37:55 on Nov 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# No Design Loaded!
+vsim work.tb_fir_alu
+# vsim work.tb_fir_alu 
+# Start time: 14:38:53 on Nov 17,2024
+# //  ModelSim DE 2024.2 May 20 2024 Linux 4.18.0-553.27.1.el8_10.x86_64
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading work.tb_fir_alu
+# Loading work.fir_alu
+add wave -position end  sim:/tb_fir_alu/y_float
+add wave -position end  sim:/tb_fir_alu/x_in
+add wave uut.b
+run
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v(80)
+#    Time: 10255312 ns  Iteration: 0  Instance: /tb_fir_alu
+# 1
+# Break in Module tb_fir_alu at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v line 80
+run
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:49:43 on Nov 17,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu.v 
+# -- Compiling module fir_alu
+# 
+# Top level modules:
+# 	fir_alu
+# End time: 14:49:44 on Nov 17,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:49:44 on Nov 17,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v 
+# -- Compiling module tb_fir_alu
+# 
+# Top level modules:
+# 	tb_fir_alu
+# End time: 14:49:44 on Nov 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.tb_fir_alu
+# Loading work.fir_alu
+run
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v(80)
+#    Time: 10255312 ns  Iteration: 0  Instance: /tb_fir_alu
+# 1
+# Break in Module tb_fir_alu at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v line 80
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 15:04:06 on Nov 17,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu.v 
+# -- Compiling module fir_alu
+# 
+# Top level modules:
+# 	fir_alu
+# End time: 15:04:07 on Nov 17,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 15:04:07 on Nov 17,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v 
+# -- Compiling module tb_fir_alu
+# 
+# Top level modules:
+# 	tb_fir_alu
+# End time: 15:04:07 on Nov 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.tb_fir_alu
+# Loading work.fir_alu
+run
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v(80)
+#    Time: 10255312 ns  Iteration: 0  Instance: /tb_fir_alu
+# 1
+# Break in Module tb_fir_alu at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_alu/fir_alu_tb.v line 80
+# End time: 15:44:31 on Nov 17,2024, Elapsed time: 1:05:38
+# Errors: 0, Warnings: 0

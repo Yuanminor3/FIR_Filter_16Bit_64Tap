@@ -1,0 +1,1866 @@
+vsim work.CMEM_Testbench
+# vsim work.CMEM_Testbench 
+# Start time: 17:44:17 on Nov 21,2024
+# //  ModelSim DE 2024.2 May 20 2024 Linux 4.18.0-553.27.1.el8_10.x86_64
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+add wave -position end  sim:/CMEM_Testbench/CLK
+add wave -position end  sim:/CMEM_Testbench/A
+add wave -position end  sim:/CMEM_Testbench/D
+add wave -position end  sim:/CMEM_Testbench/Q
+add wave -position end  sim:/CMEM_Testbench/WEN
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:45:56 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 17:45:57 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:45:58 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 17:45:58 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run
+# Loading coefficients from file...
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+# doVOpenFlatFile(): INTERNAL ERROR: page load failed for file /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/@c@m@e@m/_primary.dbs (21:21 1:1 258 0 63634235457536 0 0x673fb826:0x10b)
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:49:27 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 17:49:28 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:49:28 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 17:49:29 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# Address:  0, Data Out: xxxx
+# Address:  1, Data Out: xxxx
+# Address:  2, Data Out: xxxx
+# Address:  3, Data Out: xxxx
+# Address:  4, Data Out: xxxx
+# Address:  5, Data Out: xxxx
+# Address:  6, Data Out: xxxx
+# Address:  7, Data Out: xxxx
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(153)
+#    Time: 380 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 153
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:51:15 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 17:51:15 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 17:51:16 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 17:51:16 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# Address:  0, Data Out: 0010
+# Address:  1, Data Out: 0011
+# Address:  2, Data Out: 0012
+# Address:  3, Data Out: 0013
+# Address:  4, Data Out: 0014
+# Address:  5, Data Out: 0015
+# Address:  6, Data Out: 0016
+# Address:  7, Data Out: 0017
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(153)
+#    Time: 380 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 153
+add wave -position end  sim:/CMEM_Testbench/CEN
+restart -f
+run
+# Address:  0, Data Out: 0010
+# Address:  1, Data Out: 0011
+# Address:  2, Data Out: 0012
+# Address:  3, Data Out: 0013
+# Address:  4, Data Out: 0014
+# Address:  5, Data Out: 0015
+# Address:  6, Data Out: 0016
+# Address:  7, Data Out: 0017
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(153)
+#    Time: 380 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 153
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:07:06 on Nov 21,2024
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:07:06 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# ** Warning: (vlog-6) -- Waiting for lock by "yj2848@cadpc24, pid = 1310450". Lockfile is "/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/_lock".
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 18:07:07 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:07:07 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# ** Warning: (vlog-6) -- Waiting for lock by "yj2848@cadpc24, pid = 1310455". Lockfile is "/homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/work/_lock".
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 18:07:08 on Nov 21,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 18:07:09 on Nov 21,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+restart -f
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# ** Error: $hold( posedge CLK &&& CEN_flag:10 ns, negedge CEN:10 ns, 500 ps );
+#    Time: 10 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1133
+# ** Error: $hold( posedge CLK &&& flag:30 ns, posedge WEN:30 ns, 500 ps );
+#    Time: 30 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:30 ns, posedge A[0]:30 ns, 500 ps );
+#    Time: 30 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:50 ns, posedge WEN:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:50 ns, posedge A[1]:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:50 ns, negedge A[0]:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:70 ns, posedge WEN:70 ns, 500 ps );
+#    Time: 70 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:70 ns, posedge A[0]:70 ns, 500 ps );
+#    Time: 70 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:90 ns, posedge WEN:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:90 ns, posedge A[2]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:90 ns, negedge A[1]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:90 ns, negedge A[0]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:110 ns, posedge WEN:110 ns, 500 ps );
+#    Time: 110 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:110 ns, posedge A[0]:110 ns, 500 ps );
+#    Time: 110 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:130 ns, posedge WEN:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:130 ns, posedge A[1]:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:130 ns, negedge A[0]:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:150 ns, posedge WEN:150 ns, 500 ps );
+#    Time: 150 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:150 ns, posedge A[0]:150 ns, 500 ps );
+#    Time: 150 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:170 ns, posedge WEN:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[2]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[1]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[0]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  0, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:190 ns, posedge A[0]:190 ns, 500 ps );
+#    Time: 190 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  1, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:210 ns, posedge A[1]:210 ns, 500 ps );
+#    Time: 210 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:210 ns, negedge A[0]:210 ns, 500 ps );
+#    Time: 210 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  2, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:230 ns, posedge A[0]:230 ns, 500 ps );
+#    Time: 230 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  3, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:250 ns, posedge A[2]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:250 ns, negedge A[1]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:250 ns, negedge A[0]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  4, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:270 ns, posedge A[0]:270 ns, 500 ps );
+#    Time: 270 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  5, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:290 ns, posedge A[1]:290 ns, 500 ps );
+#    Time: 290 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:290 ns, negedge A[0]:290 ns, 500 ps );
+#    Time: 290 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  6, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:310 ns, posedge A[0]:310 ns, 500 ps );
+#    Time: 310 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  7, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:330 ns, posedge A[3]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1140
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[2]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[1]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[0]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(153)
+#    Time: 380 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 153
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:14:35 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 18:14:36 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:14:36 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 18:14:37 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# ** Error: $hold( posedge CLK &&& CEN_flag:10 ns, negedge CEN:10 ns, 500 ps );
+#    Time: 10 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1133
+# ** Error: $hold( posedge CLK &&& flag:30 ns, posedge A[0]:30 ns, 500 ps );
+#    Time: 30 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:30 ns, posedge WEN:30 ns, 500 ps );
+#    Time: 30 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:50 ns, posedge A[1]:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:50 ns, negedge A[0]:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:50 ns, posedge WEN:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:70 ns, posedge A[0]:70 ns, 500 ps );
+#    Time: 70 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:70 ns, posedge WEN:70 ns, 500 ps );
+#    Time: 70 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:90 ns, posedge A[2]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:90 ns, negedge A[1]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:90 ns, negedge A[0]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:90 ns, posedge WEN:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:110 ns, posedge A[0]:110 ns, 500 ps );
+#    Time: 110 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:110 ns, posedge WEN:110 ns, 500 ps );
+#    Time: 110 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:130 ns, posedge A[1]:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:130 ns, negedge A[0]:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:130 ns, posedge WEN:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:150 ns, posedge A[0]:150 ns, 500 ps );
+#    Time: 150 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:150 ns, posedge WEN:150 ns, 500 ps );
+#    Time: 150 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[2]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[1]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[0]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:170 ns, posedge WEN:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# Address:  0, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:190 ns, posedge A[0]:190 ns, 500 ps );
+#    Time: 190 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  1, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:210 ns, posedge A[1]:210 ns, 500 ps );
+#    Time: 210 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:210 ns, negedge A[0]:210 ns, 500 ps );
+#    Time: 210 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  2, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:230 ns, posedge A[0]:230 ns, 500 ps );
+#    Time: 230 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  3, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:250 ns, posedge A[2]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:250 ns, negedge A[1]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:250 ns, negedge A[0]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  4, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:270 ns, posedge A[0]:270 ns, 500 ps );
+#    Time: 270 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  5, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:290 ns, posedge A[1]:290 ns, 500 ps );
+#    Time: 290 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:290 ns, negedge A[0]:290 ns, 500 ps );
+#    Time: 290 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  6, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:310 ns, posedge A[0]:310 ns, 500 ps );
+#    Time: 310 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  7, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:330 ns, posedge A[3]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1140
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[2]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[1]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[0]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(153)
+#    Time: 380 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 153
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:17:04 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# 
+# Top level modules:
+# 	CMEM
+# End time: 18:17:05 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:17:05 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 18:17:05 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# ** Error: $hold( posedge CLK &&& CEN_flag:10 ns, negedge CEN:10 ns, 500 ps );
+#    Time: 10 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1133
+# ** Error: $hold( posedge CLK &&& flag:30 ns, posedge WEN:30 ns, 500 ps );
+#    Time: 30 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:30 ns, posedge A[0]:30 ns, 500 ps );
+#    Time: 30 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:50 ns, posedge WEN:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:50 ns, posedge A[1]:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:50 ns, negedge A[0]:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:70 ns, posedge WEN:70 ns, 500 ps );
+#    Time: 70 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:70 ns, posedge A[0]:70 ns, 500 ps );
+#    Time: 70 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:90 ns, posedge WEN:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:90 ns, posedge A[2]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:90 ns, negedge A[1]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:90 ns, negedge A[0]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:110 ns, posedge WEN:110 ns, 500 ps );
+#    Time: 110 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:110 ns, posedge A[0]:110 ns, 500 ps );
+#    Time: 110 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:130 ns, posedge WEN:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:130 ns, posedge A[1]:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:130 ns, negedge A[0]:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:150 ns, posedge WEN:150 ns, 500 ps );
+#    Time: 150 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:150 ns, posedge A[0]:150 ns, 500 ps );
+#    Time: 150 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:170 ns, posedge WEN:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[2]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[1]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[0]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  0, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:190 ns, posedge A[0]:190 ns, 500 ps );
+#    Time: 190 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  1, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:210 ns, posedge A[1]:210 ns, 500 ps );
+#    Time: 210 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:210 ns, negedge A[0]:210 ns, 500 ps );
+#    Time: 210 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  2, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:230 ns, posedge A[0]:230 ns, 500 ps );
+#    Time: 230 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  3, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:250 ns, posedge A[2]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:250 ns, negedge A[1]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:250 ns, negedge A[0]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  4, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:270 ns, posedge A[0]:270 ns, 500 ps );
+#    Time: 270 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  5, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:290 ns, posedge A[1]:290 ns, 500 ps );
+#    Time: 290 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:290 ns, negedge A[0]:290 ns, 500 ps );
+#    Time: 290 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  6, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:310 ns, posedge A[0]:310 ns, 500 ps );
+#    Time: 310 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  7, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:330 ns, posedge A[3]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1140
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[2]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[1]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[0]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(153)
+#    Time: 380 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 153
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:24:31 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 18:24:31 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:24:32 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 18:24:33 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# ** Error: $hold( posedge CLK &&& CEN_flag:10 ns, negedge CEN:10 ns, 500 ps );
+#    Time: 10 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1133
+# ** Error: $hold( posedge CLK &&& flag:30 ns, posedge A[0]:30 ns, 500 ps );
+#    Time: 30 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:30 ns, posedge WEN:30 ns, 500 ps );
+#    Time: 30 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:50 ns, posedge A[1]:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:50 ns, negedge A[0]:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:50 ns, posedge WEN:50 ns, 500 ps );
+#    Time: 50 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:70 ns, posedge A[0]:70 ns, 500 ps );
+#    Time: 70 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:70 ns, posedge WEN:70 ns, 500 ps );
+#    Time: 70 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:90 ns, posedge A[2]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:90 ns, negedge A[1]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:90 ns, negedge A[0]:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:90 ns, posedge WEN:90 ns, 500 ps );
+#    Time: 90 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:110 ns, posedge A[0]:110 ns, 500 ps );
+#    Time: 110 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:110 ns, posedge WEN:110 ns, 500 ps );
+#    Time: 110 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:130 ns, posedge A[1]:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:130 ns, negedge A[0]:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:130 ns, posedge WEN:130 ns, 500 ps );
+#    Time: 130 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:150 ns, posedge A[0]:150 ns, 500 ps );
+#    Time: 150 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# ** Error: $hold( posedge CLK &&& flag:150 ns, posedge WEN:150 ns, 500 ps );
+#    Time: 150 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[2]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[1]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:170 ns, negedge A[0]:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Error: $hold( posedge CLK &&& flag:170 ns, posedge WEN:170 ns, 500 ps );
+#    Time: 170 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1134
+# Address:  0, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:190 ns, posedge A[0]:190 ns, 500 ps );
+#    Time: 190 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  1, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:210 ns, posedge A[1]:210 ns, 500 ps );
+#    Time: 210 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:210 ns, negedge A[0]:210 ns, 500 ps );
+#    Time: 210 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  2, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:230 ns, posedge A[0]:230 ns, 500 ps );
+#    Time: 230 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  3, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:250 ns, posedge A[2]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:250 ns, negedge A[1]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:250 ns, negedge A[0]:250 ns, 500 ps );
+#    Time: 250 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  4, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:270 ns, posedge A[0]:270 ns, 500 ps );
+#    Time: 270 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  5, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:290 ns, posedge A[1]:290 ns, 500 ps );
+#    Time: 290 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:290 ns, negedge A[0]:290 ns, 500 ps );
+#    Time: 290 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# Address:  6, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:310 ns, posedge A[0]:310 ns, 500 ps );
+#    Time: 310 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1146
+# Address:  7, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:330 ns, posedge A[3]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1140
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[2]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[1]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:330 ns, negedge A[0]:330 ns, 500 ps );
+#    Time: 330 ns  Iteration: 1  Process: /CMEM_Testbench/uut/#Setuphold# File: ./../../rtl/fir_cmem/CMEM.v Line: 1147
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(153)
+#    Time: 380 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 153
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:58:02 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 18:58:03 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:58:04 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 18:58:04 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# Loading coefficients from file...
+run
+# Reading data from CMEM...
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(95)
+#    Time: 331135 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 95
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:16:07 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 19:16:07 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:16:08 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 19:16:08 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# Loading coefficients from file...
+# Reading data from CMEM...
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(96)
+#    Time: 254509 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 96
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:20:45 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 19:20:46 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 19:20:46 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 19:20:47 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# Loading coefficients from file...
+# Reading data from CMEM...
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(96)
+#    Time: 303103 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 96
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:04:46 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 20:04:47 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:04:47 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 20:04:48 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# Loading coefficients from file...
+# Reading data from CMEM...
+# At time            100749000: Address 63, Data Out: 352e
+# At time            102311000: Address 63, Data Out: 352e
+# At time            103873000: Address 63, Data Out: 352e
+# At time            105435000: Address 63, Data Out: 352e
+# At time            106997000: Address 63, Data Out: 352e
+# At time            108559000: Address 63, Data Out: 352e
+# At time            110121000: Address 63, Data Out: 352e
+# At time            111683000: Address 63, Data Out: 352e
+# At time            113245000: Address 63, Data Out: 352e
+# At time            114807000: Address 63, Data Out: 352e
+# At time            116369000: Address 63, Data Out: 352e
+# At time            117931000: Address 63, Data Out: 352e
+# At time            119493000: Address 63, Data Out: 352e
+# At time            121055000: Address 63, Data Out: 352e
+# At time            122617000: Address 63, Data Out: 352e
+# At time            124179000: Address 63, Data Out: 352e
+# At time            125741000: Address 63, Data Out: 352e
+# At time            127303000: Address 63, Data Out: 352e
+# At time            128865000: Address 63, Data Out: 352e
+# At time            130427000: Address 63, Data Out: 352e
+# At time            131989000: Address 63, Data Out: 352e
+# At time            133551000: Address 63, Data Out: 352e
+# At time            135113000: Address 63, Data Out: 352e
+# At time            136675000: Address 63, Data Out: 352e
+# At time            138237000: Address 63, Data Out: 352e
+# At time            139799000: Address 63, Data Out: 352e
+# At time            141361000: Address 63, Data Out: 352e
+# At time            142923000: Address 63, Data Out: 352e
+# At time            144485000: Address 63, Data Out: 352e
+# At time            146047000: Address 63, Data Out: 352e
+# At time            147609000: Address 63, Data Out: 352e
+# At time            149171000: Address 63, Data Out: 352e
+# At time            150733000: Address 63, Data Out: 352e
+# At time            152295000: Address 63, Data Out: 352e
+# At time            153857000: Address 63, Data Out: 352e
+# At time            155419000: Address 63, Data Out: 352e
+# At time            156981000: Address 63, Data Out: 352e
+# At time            158543000: Address 63, Data Out: 352e
+# At time            160105000: Address 63, Data Out: 352e
+# At time            161667000: Address 63, Data Out: 352e
+# At time            163229000: Address 63, Data Out: 352e
+# At time            164791000: Address 63, Data Out: 352e
+# At time            166353000: Address 63, Data Out: 352e
+# At time            167915000: Address 63, Data Out: 352e
+# At time            169477000: Address 63, Data Out: 352e
+# At time            171039000: Address 63, Data Out: 352e
+# At time            172601000: Address 63, Data Out: 352e
+# At time            174163000: Address 63, Data Out: 352e
+# At time            175725000: Address 63, Data Out: 352e
+# At time            177287000: Address 63, Data Out: 352e
+# At time            178849000: Address 63, Data Out: 352e
+# At time            180411000: Address 63, Data Out: 352e
+# At time            181973000: Address 63, Data Out: 352e
+# At time            183535000: Address 63, Data Out: 352e
+# At time            185097000: Address 63, Data Out: 352e
+# At time            186659000: Address 63, Data Out: 352e
+# At time            188221000: Address 63, Data Out: 352e
+# At time            189783000: Address 63, Data Out: 352e
+# At time            191345000: Address 63, Data Out: 352e
+# At time            192907000: Address 63, Data Out: 352e
+# At time            194469000: Address 63, Data Out: 352e
+# At time            196031000: Address 63, Data Out: 352e
+# At time            197593000: Address 63, Data Out: 352e
+# At time            199155000: Address 63, Data Out: 352e
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(94)
+#    Time: 303103 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 94
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:07:10 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 20:07:10 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:07:12 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 20:07:13 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# Loading coefficients from file...
+# Reading data from CMEM...
+# At time            100749000: Address  0, Data Out: 352e
+# ** Error: $hold( posedge CLK &&& flag:100749 ns, negedge A[5]:100749 ns, 500 ps );
+#    Time: 100749 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1137
+# ** Error: $hold( posedge CLK &&& flag:100749 ns, negedge A[4]:100749 ns, 500 ps );
+#    Time: 100749 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1139
+# ** Error: $hold( posedge CLK &&& flag:100749 ns, negedge A[3]:100749 ns, 500 ps );
+#    Time: 100749 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1141
+# ** Error: $hold( posedge CLK &&& flag:100749 ns, negedge A[2]:100749 ns, 500 ps );
+#    Time: 100749 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:100749 ns, negedge A[1]:100749 ns, 500 ps );
+#    Time: 100749 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:100749 ns, negedge A[0]:100749 ns, 500 ps );
+#    Time: 100749 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            102311000: Address  1, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:102311 ns, posedge A[0]:102311 ns, 500 ps );
+#    Time: 102311 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            103873000: Address  2, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:103873 ns, posedge A[1]:103873 ns, 500 ps );
+#    Time: 103873 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:103873 ns, negedge A[0]:103873 ns, 500 ps );
+#    Time: 103873 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            105435000: Address  3, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:105435 ns, posedge A[0]:105435 ns, 500 ps );
+#    Time: 105435 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            106997000: Address  4, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:106997 ns, posedge A[2]:106997 ns, 500 ps );
+#    Time: 106997 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:106997 ns, negedge A[1]:106997 ns, 500 ps );
+#    Time: 106997 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:106997 ns, negedge A[0]:106997 ns, 500 ps );
+#    Time: 106997 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            108559000: Address  5, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:108559 ns, posedge A[0]:108559 ns, 500 ps );
+#    Time: 108559 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            110121000: Address  6, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:110121 ns, posedge A[1]:110121 ns, 500 ps );
+#    Time: 110121 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:110121 ns, negedge A[0]:110121 ns, 500 ps );
+#    Time: 110121 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            111683000: Address  7, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:111683 ns, posedge A[0]:111683 ns, 500 ps );
+#    Time: 111683 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            113245000: Address  8, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:113245 ns, posedge A[3]:113245 ns, 500 ps );
+#    Time: 113245 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1140
+# ** Error: $hold( posedge CLK &&& flag:113245 ns, negedge A[2]:113245 ns, 500 ps );
+#    Time: 113245 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:113245 ns, negedge A[1]:113245 ns, 500 ps );
+#    Time: 113245 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:113245 ns, negedge A[0]:113245 ns, 500 ps );
+#    Time: 113245 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            114807000: Address  9, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:114807 ns, posedge A[0]:114807 ns, 500 ps );
+#    Time: 114807 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            116369000: Address 10, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:116369 ns, posedge A[1]:116369 ns, 500 ps );
+#    Time: 116369 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:116369 ns, negedge A[0]:116369 ns, 500 ps );
+#    Time: 116369 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            117931000: Address 11, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:117931 ns, posedge A[0]:117931 ns, 500 ps );
+#    Time: 117931 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            119493000: Address 12, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:119493 ns, posedge A[2]:119493 ns, 500 ps );
+#    Time: 119493 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:119493 ns, negedge A[1]:119493 ns, 500 ps );
+#    Time: 119493 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:119493 ns, negedge A[0]:119493 ns, 500 ps );
+#    Time: 119493 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            121055000: Address 13, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:121055 ns, posedge A[0]:121055 ns, 500 ps );
+#    Time: 121055 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            122617000: Address 14, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:122617 ns, posedge A[1]:122617 ns, 500 ps );
+#    Time: 122617 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:122617 ns, negedge A[0]:122617 ns, 500 ps );
+#    Time: 122617 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            124179000: Address 15, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:124179 ns, posedge A[0]:124179 ns, 500 ps );
+#    Time: 124179 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            125741000: Address 16, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:125741 ns, posedge A[4]:125741 ns, 500 ps );
+#    Time: 125741 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1138
+# ** Error: $hold( posedge CLK &&& flag:125741 ns, negedge A[3]:125741 ns, 500 ps );
+#    Time: 125741 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1141
+# ** Error: $hold( posedge CLK &&& flag:125741 ns, negedge A[2]:125741 ns, 500 ps );
+#    Time: 125741 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:125741 ns, negedge A[1]:125741 ns, 500 ps );
+#    Time: 125741 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:125741 ns, negedge A[0]:125741 ns, 500 ps );
+#    Time: 125741 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            127303000: Address 17, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:127303 ns, posedge A[0]:127303 ns, 500 ps );
+#    Time: 127303 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            128865000: Address 18, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:128865 ns, posedge A[1]:128865 ns, 500 ps );
+#    Time: 128865 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:128865 ns, negedge A[0]:128865 ns, 500 ps );
+#    Time: 128865 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            130427000: Address 19, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:130427 ns, posedge A[0]:130427 ns, 500 ps );
+#    Time: 130427 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            131989000: Address 20, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:131989 ns, posedge A[2]:131989 ns, 500 ps );
+#    Time: 131989 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:131989 ns, negedge A[1]:131989 ns, 500 ps );
+#    Time: 131989 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:131989 ns, negedge A[0]:131989 ns, 500 ps );
+#    Time: 131989 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            133551000: Address 21, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:133551 ns, posedge A[0]:133551 ns, 500 ps );
+#    Time: 133551 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            135113000: Address 22, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:135113 ns, posedge A[1]:135113 ns, 500 ps );
+#    Time: 135113 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:135113 ns, negedge A[0]:135113 ns, 500 ps );
+#    Time: 135113 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            136675000: Address 23, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:136675 ns, posedge A[0]:136675 ns, 500 ps );
+#    Time: 136675 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            138237000: Address 24, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:138237 ns, posedge A[3]:138237 ns, 500 ps );
+#    Time: 138237 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1140
+# ** Error: $hold( posedge CLK &&& flag:138237 ns, negedge A[2]:138237 ns, 500 ps );
+#    Time: 138237 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:138237 ns, negedge A[1]:138237 ns, 500 ps );
+#    Time: 138237 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:138237 ns, negedge A[0]:138237 ns, 500 ps );
+#    Time: 138237 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            139799000: Address 25, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:139799 ns, posedge A[0]:139799 ns, 500 ps );
+#    Time: 139799 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            141361000: Address 26, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:141361 ns, posedge A[1]:141361 ns, 500 ps );
+#    Time: 141361 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:141361 ns, negedge A[0]:141361 ns, 500 ps );
+#    Time: 141361 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            142923000: Address 27, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:142923 ns, posedge A[0]:142923 ns, 500 ps );
+#    Time: 142923 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            144485000: Address 28, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:144485 ns, posedge A[2]:144485 ns, 500 ps );
+#    Time: 144485 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:144485 ns, negedge A[1]:144485 ns, 500 ps );
+#    Time: 144485 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:144485 ns, negedge A[0]:144485 ns, 500 ps );
+#    Time: 144485 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            146047000: Address 29, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:146047 ns, posedge A[0]:146047 ns, 500 ps );
+#    Time: 146047 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            147609000: Address 30, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:147609 ns, posedge A[1]:147609 ns, 500 ps );
+#    Time: 147609 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:147609 ns, negedge A[0]:147609 ns, 500 ps );
+#    Time: 147609 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            149171000: Address 31, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:149171 ns, posedge A[0]:149171 ns, 500 ps );
+#    Time: 149171 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            150733000: Address 32, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:150733 ns, posedge A[5]:150733 ns, 500 ps );
+#    Time: 150733 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1136
+# ** Error: $hold( posedge CLK &&& flag:150733 ns, negedge A[4]:150733 ns, 500 ps );
+#    Time: 150733 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1139
+# ** Error: $hold( posedge CLK &&& flag:150733 ns, negedge A[3]:150733 ns, 500 ps );
+#    Time: 150733 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1141
+# ** Error: $hold( posedge CLK &&& flag:150733 ns, negedge A[2]:150733 ns, 500 ps );
+#    Time: 150733 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:150733 ns, negedge A[1]:150733 ns, 500 ps );
+#    Time: 150733 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:150733 ns, negedge A[0]:150733 ns, 500 ps );
+#    Time: 150733 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            152295000: Address 33, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:152295 ns, posedge A[0]:152295 ns, 500 ps );
+#    Time: 152295 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            153857000: Address 34, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:153857 ns, posedge A[1]:153857 ns, 500 ps );
+#    Time: 153857 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:153857 ns, negedge A[0]:153857 ns, 500 ps );
+#    Time: 153857 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            155419000: Address 35, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:155419 ns, posedge A[0]:155419 ns, 500 ps );
+#    Time: 155419 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            156981000: Address 36, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:156981 ns, posedge A[2]:156981 ns, 500 ps );
+#    Time: 156981 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:156981 ns, negedge A[1]:156981 ns, 500 ps );
+#    Time: 156981 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:156981 ns, negedge A[0]:156981 ns, 500 ps );
+#    Time: 156981 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            158543000: Address 37, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:158543 ns, posedge A[0]:158543 ns, 500 ps );
+#    Time: 158543 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            160105000: Address 38, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:160105 ns, posedge A[1]:160105 ns, 500 ps );
+#    Time: 160105 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:160105 ns, negedge A[0]:160105 ns, 500 ps );
+#    Time: 160105 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            161667000: Address 39, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:161667 ns, posedge A[0]:161667 ns, 500 ps );
+#    Time: 161667 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            163229000: Address 40, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:163229 ns, posedge A[3]:163229 ns, 500 ps );
+#    Time: 163229 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1140
+# ** Error: $hold( posedge CLK &&& flag:163229 ns, negedge A[2]:163229 ns, 500 ps );
+#    Time: 163229 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:163229 ns, negedge A[1]:163229 ns, 500 ps );
+#    Time: 163229 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:163229 ns, negedge A[0]:163229 ns, 500 ps );
+#    Time: 163229 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            164791000: Address 41, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:164791 ns, posedge A[0]:164791 ns, 500 ps );
+#    Time: 164791 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            166353000: Address 42, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:166353 ns, posedge A[1]:166353 ns, 500 ps );
+#    Time: 166353 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:166353 ns, negedge A[0]:166353 ns, 500 ps );
+#    Time: 166353 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            167915000: Address 43, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:167915 ns, posedge A[0]:167915 ns, 500 ps );
+#    Time: 167915 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            169477000: Address 44, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:169477 ns, posedge A[2]:169477 ns, 500 ps );
+#    Time: 169477 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:169477 ns, negedge A[1]:169477 ns, 500 ps );
+#    Time: 169477 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:169477 ns, negedge A[0]:169477 ns, 500 ps );
+#    Time: 169477 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            171039000: Address 45, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:171039 ns, posedge A[0]:171039 ns, 500 ps );
+#    Time: 171039 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            172601000: Address 46, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:172601 ns, posedge A[1]:172601 ns, 500 ps );
+#    Time: 172601 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:172601 ns, negedge A[0]:172601 ns, 500 ps );
+#    Time: 172601 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            174163000: Address 47, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:174163 ns, posedge A[0]:174163 ns, 500 ps );
+#    Time: 174163 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            175725000: Address 48, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:175725 ns, posedge A[4]:175725 ns, 500 ps );
+#    Time: 175725 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1138
+# ** Error: $hold( posedge CLK &&& flag:175725 ns, negedge A[3]:175725 ns, 500 ps );
+#    Time: 175725 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1141
+# ** Error: $hold( posedge CLK &&& flag:175725 ns, negedge A[2]:175725 ns, 500 ps );
+#    Time: 175725 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:175725 ns, negedge A[1]:175725 ns, 500 ps );
+#    Time: 175725 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:175725 ns, negedge A[0]:175725 ns, 500 ps );
+#    Time: 175725 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            177287000: Address 49, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:177287 ns, posedge A[0]:177287 ns, 500 ps );
+#    Time: 177287 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            178849000: Address 50, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:178849 ns, posedge A[1]:178849 ns, 500 ps );
+#    Time: 178849 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:178849 ns, negedge A[0]:178849 ns, 500 ps );
+#    Time: 178849 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            180411000: Address 51, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:180411 ns, posedge A[0]:180411 ns, 500 ps );
+#    Time: 180411 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            181973000: Address 52, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:181973 ns, posedge A[2]:181973 ns, 500 ps );
+#    Time: 181973 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:181973 ns, negedge A[1]:181973 ns, 500 ps );
+#    Time: 181973 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:181973 ns, negedge A[0]:181973 ns, 500 ps );
+#    Time: 181973 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            183535000: Address 53, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:183535 ns, posedge A[0]:183535 ns, 500 ps );
+#    Time: 183535 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            185097000: Address 54, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:185097 ns, posedge A[1]:185097 ns, 500 ps );
+#    Time: 185097 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:185097 ns, negedge A[0]:185097 ns, 500 ps );
+#    Time: 185097 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            186659000: Address 55, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:186659 ns, posedge A[0]:186659 ns, 500 ps );
+#    Time: 186659 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            188221000: Address 56, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:188221 ns, posedge A[3]:188221 ns, 500 ps );
+#    Time: 188221 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1140
+# ** Error: $hold( posedge CLK &&& flag:188221 ns, negedge A[2]:188221 ns, 500 ps );
+#    Time: 188221 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1143
+# ** Error: $hold( posedge CLK &&& flag:188221 ns, negedge A[1]:188221 ns, 500 ps );
+#    Time: 188221 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:188221 ns, negedge A[0]:188221 ns, 500 ps );
+#    Time: 188221 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            189783000: Address 57, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:189783 ns, posedge A[0]:189783 ns, 500 ps );
+#    Time: 189783 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            191345000: Address 58, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:191345 ns, posedge A[1]:191345 ns, 500 ps );
+#    Time: 191345 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:191345 ns, negedge A[0]:191345 ns, 500 ps );
+#    Time: 191345 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            192907000: Address 59, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:192907 ns, posedge A[0]:192907 ns, 500 ps );
+#    Time: 192907 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            194469000: Address 60, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:194469 ns, posedge A[2]:194469 ns, 500 ps );
+#    Time: 194469 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1142
+# ** Error: $hold( posedge CLK &&& flag:194469 ns, negedge A[1]:194469 ns, 500 ps );
+#    Time: 194469 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1145
+# ** Error: $hold( posedge CLK &&& flag:194469 ns, negedge A[0]:194469 ns, 500 ps );
+#    Time: 194469 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            196031000: Address 61, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:196031 ns, posedge A[0]:196031 ns, 500 ps );
+#    Time: 196031 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# At time            197593000: Address 62, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:197593 ns, posedge A[1]:197593 ns, 500 ps );
+#    Time: 197593 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1144
+# ** Error: $hold( posedge CLK &&& flag:197593 ns, negedge A[0]:197593 ns, 500 ps );
+#    Time: 197593 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1147
+# At time            199155000: Address 63, Data Out: xxxx
+# ** Error: $hold( posedge CLK &&& flag:199155 ns, posedge A[0]:199155 ns, 500 ps );
+#    Time: 199155 ns  Iteration: 2  Process: /CMEM_Testbench/uut/#Setuphold# File: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v Line: 1146
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(93)
+#    Time: 303103 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 93
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:09:07 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 20:09:07 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:09:08 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 20:09:09 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+run
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:09:54 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 20:09:55 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:09:55 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 20:09:56 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:11:04 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 20:11:04 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:11:06 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 20:11:06 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# Loading coefficients from file...
+# Writing and Reading data from CMEM...
+# At time               781000: Address  0, Data Out: xxxx
+# At time              2343000: Address  1, Data Out: 415b
+# At time              3905000: Address  2, Data Out: 4318
+# At time              5467000: Address  3, Data Out: f71e
+# At time              7029000: Address  4, Data Out: 5098
+# At time              8591000: Address  5, Data Out: d99c
+# At time             10153000: Address  6, Data Out: 3a68
+# At time             11715000: Address  7, Data Out: 058c
+# At time             13277000: Address  8, Data Out: 79b5
+# At time             14839000: Address  9, Data Out: 30dc
+# At time             16401000: Address 10, Data Out: 5418
+# At time             17963000: Address 11, Data Out: 207e
+# At time             19525000: Address 12, Data Out: 8366
+# At time             21087000: Address 13, Data Out: 0fab
+# At time             22649000: Address 14, Data Out: 7d73
+# At time             24211000: Address 15, Data Out: 489c
+# At time             25773000: Address 16, Data Out: 5e2a
+# At time             27335000: Address 17, Data Out: 69a5
+# At time             28897000: Address 18, Data Out: d140
+# At time             30459000: Address 19, Data Out: c5b3
+# At time             32021000: Address 20, Data Out: 6579
+# At time             33583000: Address 21, Data Out: 5c38
+# At time             35145000: Address 22, Data Out: 8bce
+# At time             36707000: Address 23, Data Out: 6501
+# At time             38269000: Address 24, Data Out: cc0a
+# At time             39831000: Address 25, Data Out: 2f6c
+# At time             41393000: Address 26, Data Out: 473c
+# At time             42955000: Address 27, Data Out: 480e
+# At time             44517000: Address 28, Data Out: 487d
+# At time             46079000: Address 29, Data Out: f75e
+# At time             47641000: Address 30, Data Out: 4372
+# At time             49203000: Address 31, Data Out: fa2b
+# At time             50765000: Address 32, Data Out: 40b8
+# At time             52327000: Address 33, Data Out: 252a
+# At time             53889000: Address 34, Data Out: 2303
+# At time             55451000: Address 35, Data Out: b645
+# At time             57013000: Address 36, Data Out: c113
+# At time             58575000: Address 37, Data Out: 30fc
+# At time             60137000: Address 38, Data Out: ba3d
+# At time             61699000: Address 39, Data Out: f100
+# At time             63261000: Address 40, Data Out: 138c
+# At time             64823000: Address 41, Data Out: a2e8
+# At time             66385000: Address 42, Data Out: 08fd
+# At time             67947000: Address 43, Data Out: 4ea3
+# At time             69509000: Address 44, Data Out: de32
+# At time             71071000: Address 45, Data Out: e7b3
+# At time             72633000: Address 46, Data Out: b57f
+# At time             74195000: Address 47, Data Out: 8827
+# At time             75757000: Address 48, Data Out: 5b05
+# At time             77319000: Address 49, Data Out: 759c
+# At time             78881000: Address 50, Data Out: 4c60
+# At time             80443000: Address 51, Data Out: 8ecc
+# At time             82005000: Address 52, Data Out: 38a5
+# At time             83567000: Address 53, Data Out: 6f15
+# At time             85129000: Address 54, Data Out: 1718
+# At time             86691000: Address 55, Data Out: 0aea
+# At time             88253000: Address 56, Data Out: 97a1
+# At time             89815000: Address 57, Data Out: 689c
+# At time             91377000: Address 58, Data Out: 8933
+# At time             92939000: Address 59, Data Out: 55de
+# At time             94501000: Address 60, Data Out: b49f
+# At time             96063000: Address 61, Data Out: d458
+# At time             97625000: Address 62, Data Out: 96b2
+# At time             99187000: Address 63, Data Out: 136f
+# At time            100749000: Address 63, Data Out: 352e
+# At time            102311000: Address 63, Data Out: 352e
+# At time            103873000: Address 63, Data Out: 352e
+# At time            105435000: Address 63, Data Out: 352e
+# At time            106997000: Address 63, Data Out: 352e
+# At time            108559000: Address 63, Data Out: 352e
+# At time            110121000: Address 63, Data Out: 352e
+# At time            111683000: Address 63, Data Out: 352e
+# At time            113245000: Address 63, Data Out: 352e
+# At time            114807000: Address 63, Data Out: 352e
+# At time            116369000: Address 63, Data Out: 352e
+# At time            117931000: Address 63, Data Out: 352e
+# At time            119493000: Address 63, Data Out: 352e
+# At time            121055000: Address 63, Data Out: 352e
+# At time            122617000: Address 63, Data Out: 352e
+# At time            124179000: Address 63, Data Out: 352e
+# At time            125741000: Address 63, Data Out: 352e
+# At time            127303000: Address 63, Data Out: 352e
+# At time            128865000: Address 63, Data Out: 352e
+# At time            130427000: Address 63, Data Out: 352e
+# At time            131989000: Address 63, Data Out: 352e
+# At time            133551000: Address 63, Data Out: 352e
+# At time            135113000: Address 63, Data Out: 352e
+# At time            136675000: Address 63, Data Out: 352e
+# At time            138237000: Address 63, Data Out: 352e
+# At time            139799000: Address 63, Data Out: 352e
+# At time            141361000: Address 63, Data Out: 352e
+# At time            142923000: Address 63, Data Out: 352e
+# At time            144485000: Address 63, Data Out: 352e
+# At time            146047000: Address 63, Data Out: 352e
+# At time            147609000: Address 63, Data Out: 352e
+# At time            149171000: Address 63, Data Out: 352e
+# At time            150733000: Address 63, Data Out: 352e
+# At time            152295000: Address 63, Data Out: 352e
+# At time            153857000: Address 63, Data Out: 352e
+# At time            155419000: Address 63, Data Out: 352e
+# At time            156981000: Address 63, Data Out: 352e
+# At time            158543000: Address 63, Data Out: 352e
+# At time            160105000: Address 63, Data Out: 352e
+# At time            161667000: Address 63, Data Out: 352e
+# At time            163229000: Address 63, Data Out: 352e
+# At time            164791000: Address 63, Data Out: 352e
+# At time            166353000: Address 63, Data Out: 352e
+# At time            167915000: Address 63, Data Out: 352e
+# At time            169477000: Address 63, Data Out: 352e
+# At time            171039000: Address 63, Data Out: 352e
+# At time            172601000: Address 63, Data Out: 352e
+# At time            174163000: Address 63, Data Out: 352e
+# At time            175725000: Address 63, Data Out: 352e
+# At time            177287000: Address 63, Data Out: 352e
+# At time            178849000: Address 63, Data Out: 352e
+# At time            180411000: Address 63, Data Out: 352e
+# At time            181973000: Address 63, Data Out: 352e
+# At time            183535000: Address 63, Data Out: 352e
+# At time            185097000: Address 63, Data Out: 352e
+# At time            186659000: Address 63, Data Out: 352e
+# At time            188221000: Address 63, Data Out: 352e
+# At time            189783000: Address 63, Data Out: 352e
+# At time            191345000: Address 63, Data Out: 352e
+# At time            192907000: Address 63, Data Out: 352e
+# At time            194469000: Address 63, Data Out: 352e
+# At time            196031000: Address 63, Data Out: 352e
+# At time            197593000: Address 63, Data Out: 352e
+# At time            199155000: Address 63, Data Out: 352e
+# At time            200717000: Address 63, Data Out: 352e
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(85)
+#    Time: 201540500 ps  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 85
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:15 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 20:12:16 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:12:16 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 20:12:17 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# Loading coefficients from file...
+# Writing and Reading data from CMEM...
+# At time               781000: Address  0, Data Out: xxxx
+# At time              2343000: Address  1, Data Out: 415b
+# At time              3905000: Address  2, Data Out: 4318
+# At time              5467000: Address  3, Data Out: f71e
+# At time              7029000: Address  4, Data Out: 5098
+# At time              8591000: Address  5, Data Out: d99c
+# At time             10153000: Address  6, Data Out: 3a68
+# At time             11715000: Address  7, Data Out: 058c
+# At time             13277000: Address  8, Data Out: 79b5
+# At time             14839000: Address  9, Data Out: 30dc
+# At time             16401000: Address 10, Data Out: 5418
+# At time             17963000: Address 11, Data Out: 207e
+# At time             19525000: Address 12, Data Out: 8366
+# At time             21087000: Address 13, Data Out: 0fab
+# At time             22649000: Address 14, Data Out: 7d73
+# At time             24211000: Address 15, Data Out: 489c
+# At time             25773000: Address 16, Data Out: 5e2a
+# At time             27335000: Address 17, Data Out: 69a5
+# At time             28897000: Address 18, Data Out: d140
+# At time             30459000: Address 19, Data Out: c5b3
+# At time             32021000: Address 20, Data Out: 6579
+# At time             33583000: Address 21, Data Out: 5c38
+# At time             35145000: Address 22, Data Out: 8bce
+# At time             36707000: Address 23, Data Out: 6501
+# At time             38269000: Address 24, Data Out: cc0a
+# At time             39831000: Address 25, Data Out: 2f6c
+# At time             41393000: Address 26, Data Out: 473c
+# At time             42955000: Address 27, Data Out: 480e
+# At time             44517000: Address 28, Data Out: 487d
+# At time             46079000: Address 29, Data Out: f75e
+# At time             47641000: Address 30, Data Out: 4372
+# At time             49203000: Address 31, Data Out: fa2b
+# At time             50765000: Address 32, Data Out: 40b8
+# At time             52327000: Address 33, Data Out: 252a
+# At time             53889000: Address 34, Data Out: 2303
+# At time             55451000: Address 35, Data Out: b645
+# At time             57013000: Address 36, Data Out: c113
+# At time             58575000: Address 37, Data Out: 30fc
+# At time             60137000: Address 38, Data Out: ba3d
+# At time             61699000: Address 39, Data Out: f100
+# At time             63261000: Address 40, Data Out: 138c
+# At time             64823000: Address 41, Data Out: a2e8
+# At time             66385000: Address 42, Data Out: 08fd
+# At time             67947000: Address 43, Data Out: 4ea3
+# At time             69509000: Address 44, Data Out: de32
+# At time             71071000: Address 45, Data Out: e7b3
+# At time             72633000: Address 46, Data Out: b57f
+# At time             74195000: Address 47, Data Out: 8827
+# At time             75757000: Address 48, Data Out: 5b05
+# At time             77319000: Address 49, Data Out: 759c
+# At time             78881000: Address 50, Data Out: 4c60
+# At time             80443000: Address 51, Data Out: 8ecc
+# At time             82005000: Address 52, Data Out: 38a5
+# At time             83567000: Address 53, Data Out: 6f15
+# At time             85129000: Address 54, Data Out: 1718
+# At time             86691000: Address 55, Data Out: 0aea
+# At time             88253000: Address 56, Data Out: 97a1
+# At time             89815000: Address 57, Data Out: 689c
+# At time             91377000: Address 58, Data Out: 8933
+# At time             92939000: Address 59, Data Out: 55de
+# At time             94501000: Address 60, Data Out: b49f
+# At time             96063000: Address 61, Data Out: d458
+# At time             97625000: Address 62, Data Out: 96b2
+# At time             99187000: Address 63, Data Out: 136f
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(85)
+#    Time: 99998 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 85
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:13:08 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 20:13:08 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:13:09 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 20:13:10 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# Loading coefficients from file...
+# Writing and Reading data from CMEM...
+# At time               781000: Address  0, Data Out:     x
+# At time              2343000: Address  1, Data Out: 16731
+# At time              3905000: Address  2, Data Out: 17176
+# At time              5467000: Address  3, Data Out: 63262
+# At time              7029000: Address  4, Data Out: 20632
+# At time              8591000: Address  5, Data Out: 55708
+# At time             10153000: Address  6, Data Out: 14952
+# At time             11715000: Address  7, Data Out:  1420
+# At time             13277000: Address  8, Data Out: 31157
+# At time             14839000: Address  9, Data Out: 12508
+# At time             16401000: Address 10, Data Out: 21528
+# At time             17963000: Address 11, Data Out:  8318
+# At time             19525000: Address 12, Data Out: 33638
+# At time             21087000: Address 13, Data Out:  4011
+# At time             22649000: Address 14, Data Out: 32115
+# At time             24211000: Address 15, Data Out: 18588
+# At time             25773000: Address 16, Data Out: 24106
+# At time             27335000: Address 17, Data Out: 27045
+# At time             28897000: Address 18, Data Out: 53568
+# At time             30459000: Address 19, Data Out: 50611
+# At time             32021000: Address 20, Data Out: 25977
+# At time             33583000: Address 21, Data Out: 23608
+# At time             35145000: Address 22, Data Out: 35790
+# At time             36707000: Address 23, Data Out: 25857
+# At time             38269000: Address 24, Data Out: 52234
+# At time             39831000: Address 25, Data Out: 12140
+# At time             41393000: Address 26, Data Out: 18236
+# At time             42955000: Address 27, Data Out: 18446
+# At time             44517000: Address 28, Data Out: 18557
+# At time             46079000: Address 29, Data Out: 63326
+# At time             47641000: Address 30, Data Out: 17266
+# At time             49203000: Address 31, Data Out: 64043
+# At time             50765000: Address 32, Data Out: 16568
+# At time             52327000: Address 33, Data Out:  9514
+# At time             53889000: Address 34, Data Out:  8963
+# At time             55451000: Address 35, Data Out: 46661
+# At time             57013000: Address 36, Data Out: 49427
+# At time             58575000: Address 37, Data Out: 12540
+# At time             60137000: Address 38, Data Out: 47677
+# At time             61699000: Address 39, Data Out: 61696
+# At time             63261000: Address 40, Data Out:  5004
+# At time             64823000: Address 41, Data Out: 41704
+# At time             66385000: Address 42, Data Out:  2301
+# At time             67947000: Address 43, Data Out: 20131
+# At time             69509000: Address 44, Data Out: 56882
+# At time             71071000: Address 45, Data Out: 59315
+# At time             72633000: Address 46, Data Out: 46463
+# At time             74195000: Address 47, Data Out: 34855
+# At time             75757000: Address 48, Data Out: 23301
+# At time             77319000: Address 49, Data Out: 30108
+# At time             78881000: Address 50, Data Out: 19552
+# At time             80443000: Address 51, Data Out: 36556
+# At time             82005000: Address 52, Data Out: 14501
+# At time             83567000: Address 53, Data Out: 28437
+# At time             85129000: Address 54, Data Out:  5912
+# At time             86691000: Address 55, Data Out:  2794
+# At time             88253000: Address 56, Data Out: 38817
+# At time             89815000: Address 57, Data Out: 26780
+# At time             91377000: Address 58, Data Out: 35123
+# At time             92939000: Address 59, Data Out: 21982
+# At time             94501000: Address 60, Data Out: 46239
+# At time             96063000: Address 61, Data Out: 54360
+# At time             97625000: Address 62, Data Out: 38578
+# At time             99187000: Address 63, Data Out:  4975
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(85)
+#    Time: 99998 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 85
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:20:18 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 20:20:19 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:20:19 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# ** Error: /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(44): (vlog-2730) Undefined variable: 'display'.
+# End time: 20:20:20 on Nov 21,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:20:47 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM.v 
+# -- Compiling module CMEM
+# 
+# Top level modules:
+# 	CMEM
+# End time: 20:20:47 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v
+# Model Technology ModelSim DE vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:20:48 on Nov 21,2024
+# vlog -reportprogress 300 -work work /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v 
+# -- Compiling module CMEM
+# -- Compiling module CMEM_Testbench
+# 
+# Top level modules:
+# 	CMEM_Testbench
+# End time: 20:20:48 on Nov 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.CMEM_Testbench
+# Loading work.CMEM
+run
+# Loading coefficients from file...
+# Writing and Reading data from CMEM...
+# At time               784000: Address  0, Data Out: 16731
+# At time              2346000: Address  1, Data Out: 17176
+# At time              3908000: Address  2, Data Out: 63262
+# At time              5470000: Address  3, Data Out: 20632
+# At time              7032000: Address  4, Data Out: 55708
+# At time              8594000: Address  5, Data Out: 14952
+# At time             10156000: Address  6, Data Out:  1420
+# At time             11718000: Address  7, Data Out: 31157
+# At time             13280000: Address  8, Data Out: 12508
+# At time             14842000: Address  9, Data Out: 21528
+# At time             16404000: Address 10, Data Out:  8318
+# At time             17966000: Address 11, Data Out: 33638
+# At time             19528000: Address 12, Data Out:  4011
+# At time             21090000: Address 13, Data Out: 32115
+# At time             22652000: Address 14, Data Out: 18588
+# At time             24214000: Address 15, Data Out: 24106
+# At time             25776000: Address 16, Data Out: 27045
+# At time             27338000: Address 17, Data Out: 53568
+# At time             28900000: Address 18, Data Out: 50611
+# At time             30462000: Address 19, Data Out: 25977
+# At time             32024000: Address 20, Data Out: 23608
+# At time             33586000: Address 21, Data Out: 35790
+# At time             35148000: Address 22, Data Out: 25857
+# At time             36710000: Address 23, Data Out: 52234
+# At time             38272000: Address 24, Data Out: 12140
+# At time             39834000: Address 25, Data Out: 18236
+# At time             41396000: Address 26, Data Out: 18446
+# At time             42958000: Address 27, Data Out: 18557
+# At time             44520000: Address 28, Data Out: 63326
+# At time             46082000: Address 29, Data Out: 17266
+# At time             47644000: Address 30, Data Out: 64043
+# At time             49206000: Address 31, Data Out: 16568
+# At time             50768000: Address 32, Data Out:  9514
+# At time             52330000: Address 33, Data Out:  8963
+# At time             53892000: Address 34, Data Out: 46661
+# At time             55454000: Address 35, Data Out: 49427
+# At time             57016000: Address 36, Data Out: 12540
+# At time             58578000: Address 37, Data Out: 47677
+# At time             60140000: Address 38, Data Out: 61696
+# At time             61702000: Address 39, Data Out:  5004
+# At time             63264000: Address 40, Data Out: 41704
+# At time             64826000: Address 41, Data Out:  2301
+# At time             66388000: Address 42, Data Out: 20131
+# At time             67950000: Address 43, Data Out: 56882
+# At time             69512000: Address 44, Data Out: 59315
+# At time             71074000: Address 45, Data Out: 46463
+# At time             72636000: Address 46, Data Out: 34855
+# At time             74198000: Address 47, Data Out: 23301
+# At time             75760000: Address 48, Data Out: 30108
+# At time             77322000: Address 49, Data Out: 19552
+# At time             78884000: Address 50, Data Out: 36556
+# At time             80446000: Address 51, Data Out: 14501
+# At time             82008000: Address 52, Data Out: 28437
+# At time             83570000: Address 53, Data Out:  5912
+# At time             85132000: Address 54, Data Out:  2794
+# At time             86694000: Address 55, Data Out: 38817
+# At time             88256000: Address 56, Data Out: 26780
+# At time             89818000: Address 57, Data Out: 35123
+# At time             91380000: Address 58, Data Out: 21982
+# At time             92942000: Address 59, Data Out: 46239
+# At time             94504000: Address 60, Data Out: 54360
+# At time             96066000: Address 61, Data Out: 38578
+# At time             97628000: Address 62, Data Out:  4975
+# At time             99190000: Address 63, Data Out: 13614
+# ** Note: $finish    : /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v(86)
+#    Time: 99998 ns  Iteration: 0  Instance: /CMEM_Testbench
+# 1
+# Break in Module CMEM_Testbench at /homes/user/stud/fall24/yj2848/EE4823FIR/rtl/fir_cmem/CMEM_tb.v line 86
+# Load canceled
+# End time: 20:44:41 on Nov 21,2024, Elapsed time: 3:00:24
+# Errors: 0, Warnings: 0

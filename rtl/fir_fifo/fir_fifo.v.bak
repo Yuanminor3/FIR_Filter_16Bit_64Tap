@@ -1,0 +1,187 @@
+/*
+module fir_fifo (
+	input wire clk1,  // 10khz (FIFO write clk)
+	input wire clk2,  // 640khz (FIFO read clk)
+	input wire rstn,  // Reset (active-low)
+	input wire valid_in, // Valid signal for input data
+	input wire [15:0] din, // input data
+
+	output wire fifo_empty,
+	output wire fifo_full,
+	output [15:0] fifo_out
+
+);
+	// FIFO memory (depth = 4)
+	reg [15:0] fifo_mem [0:3];
+	reg [2:0] wr_ptr, rd_ptr;    
+	reg [2:0] wr_ptr_gray, rd_ptr_gray;
+	reg [2:0] wr_ptr_gray_sync, rd_ptr_gray_sync;
+
+	//FIFO Write (clk1 = 10K hz)
+	always @(posedge clk1 or negedge rstn) begin
+		if (!rstn) begin
+			wr_ptr <= 0;
+			wr_ptr_gray <= 0;
+		end 
+		else if (valid_in && !fifo_full) begin
+			fifo_mem[wr_ptr[1:0]] <= din;
+			wr_ptr <= (wr_ptr + 1) & 3;
+			wr_ptr_gray <= (wr_ptr >> 1)^(wr_ptr); // convert to gray code
+		end		
+	end
+
+	//FIFO Read (clk2 = 640K hz)
+	reg [15:0] fifo_out_data; 
+	always @(posedge clk2 or negedge rstn) begin
+		if (!rstn) begin
+			rd_ptr <= 0;
+			rd_ptr_gray <= 0;
+		end
+		else if (!fifo_empty) begin
+			fifo_out_data <= fifo_mem[rd_ptr[1:0]];
+			rd_ptr <= (rd_ptr + 1) & 3;
+			rd_ptr_gray <= (rd_ptr >> 1)^(rd_ptr); // convert to gray code
+		end		
+	end
+
+	// Synchronize write pointer to clk2 read domain (to know FIFO "empty" or not)
+	always @(posedge clk2 or negedge rstn) begin
+		if (!rstn) begin
+			wr_ptr_gray_sync <= 0;
+		end
+		else begin
+			wr_ptr_gray_sync <= wr_ptr_gray;
+		end		
+	end
+
+	// Synchronize read pointer to clk1 write domain (to know FIFO "full" or not)
+	always @(posedge clk1 or negedge rstn) begin
+		if (!rstn) begin
+			rd_ptr_gray_sync <= 0;
+		end
+		else begin
+			rd_ptr_gray_sync <= rd_ptr_gray;
+		end		
+	end
+
+	// Gray code to binary
+	function [2:0] gray_to_binary;
+		input [2:0] gray;
+		integer i;
+		begin
+			gray_to_binary[2] = gray[2];
+			for (i = 1; i >= 0; i = i - 1) begin
+				gray_to_binary[i] = gray_to_binary[i+1] ^ gray[i];
+			end
+		end
+	endfunction
+	// Calculate next gray code
+	function [2:0] gray_next;
+		input [2:0] gray_current;
+		reg [2:0] binary, binary_next;
+		begin
+			binary = gray_to_binary(gray_current);
+			binary_next = binary + 1;
+			gray_next = binary_next ^ (binary_next >> 1);
+		end
+	endfunction
+
+	//FIFO "empty"/"full" status
+	assign fifo_empty = (wr_ptr_gray_sync == rd_ptr_gray); // in clk2 read domain, if write pointer = read pointer -> FIFO empty
+	assign fifo_full = (wr_ptr_gray == rd_ptr_gray_sync) ; // in clk1 write domain, if write pointer = read pointer -> FIFO full
+
+	// Output data
+	assign fifo_out = fifo_out_data;
+
+endmodule 
+
+
+*/
+
+module fir_fifo (
+	input wire clk1,  // 10khz (FIFO write clk)
+	input wire clk2,  // 640khz (FIFO read clk)
+	input wire rstn,  // Reset (active-low)
+	input wire valid_in, // Valid signal for input data
+	input wire [15:0] din, // input data
+
+	output wire fifo_empty,
+	output wire fifo_full,
+	output [15:0] fifo_out
+
+);
+	// FIFO memory (depth = 4)
+	reg [15:0] fifo_mem [0:3];
+	reg [2:0] wr_ptr, rd_ptr;    
+	reg [2:0] wr_ptr_gray, rd_ptr_gray;
+	reg [2:0] wr_ptr_gray_sync, rd_ptr_gray_sync, wr_ptr_gray_sync1, rd_ptr_gray_sync1;
+
+	//FIFO Write (clk1 = 10K hz)
+	always @(posedge clk1 or negedge rstn) begin
+    	if (!rstn) begin
+        	wr_ptr <= 0;
+        	wr_ptr_gray <= 0;
+    	end
+    	else if (valid_in && !fifo_full) begin
+        	fifo_mem[wr_ptr[1:0]] <= din;
+        	wr_ptr <= (wr_ptr + 1) & 3;
+        	wr_ptr_gray <= (((wr_ptr + 1) & 3) >> 1)^((wr_ptr + 1) & 3); // convert to gray code
+    	end   	 
+	end
+
+	//FIFO Read (clk2 = 640K hz)
+	reg [15:0] fifo_out_data;
+	always @(posedge clk2 or negedge rstn) begin
+    	if (!rstn) begin
+        	rd_ptr <= 0;
+        	rd_ptr_gray <= 0;
+    	end
+    	else if (!fifo_empty) begin
+        	fifo_out_data <= fifo_mem[rd_ptr[1:0]];
+        	rd_ptr <= (rd_ptr + 1) & 3;
+        	rd_ptr_gray <= (((rd_ptr + 1) & 3) >> 1)^((rd_ptr + 1) & 3); // convert to gray code
+    	end   	 
+	end
+
+	// Synchronize write pointer to clk2 read domain (to know FIFO "empty" or not)
+	always @(posedge clk2 or negedge rstn) begin
+    	if (!rstn) begin
+        	wr_ptr_gray_sync <= 0;
+		wr_ptr_gray_sync1 <= 0;
+    	end
+    	else begin
+        	wr_ptr_gray_sync <= wr_ptr_gray;
+		wr_ptr_gray_sync1 <= wr_ptr_gray_sync;
+    	end   	 
+	end
+
+	// Synchronize read pointer to clk1 write domain (to know FIFO "full" or not)
+	always @(posedge clk1 or negedge rstn) begin
+    	if (!rstn) begin
+        	rd_ptr_gray_sync <= 0;
+		rd_ptr_gray_sync1 <= 0;
+    	end
+    	else begin
+        	rd_ptr_gray_sync <= rd_ptr_gray;
+		rd_ptr_gray_sync1 <= rd_ptr_gray_sync;
+    	end   	 
+	end
+
+	//FIFO "empty"/"full" status
+	assign fifo_empty = (wr_ptr_gray_sync1 == rd_ptr_gray); // in clk2 read domain, if write pointer = read pointer -> FIFO empty
+	assign fifo_full = (wr_ptr_gray[2:1] != rd_ptr_gray_sync1[2:1])&&(wr_ptr_gray[0] == rd_ptr_gray_sync1[0]) ; // in clk1 write domain, if write pointer = read pointer -> FIFO full
+
+	// Output data
+	assign fifo_out = fifo_out_data;
+
+endmodule
+
+
+
+
+
+
+
+
+
+

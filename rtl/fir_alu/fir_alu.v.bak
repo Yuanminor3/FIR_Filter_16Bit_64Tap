@@ -1,0 +1,207 @@
+
+module fir_alu (
+    input clk,                     // 640kHz clock signal (FIR core frequency)
+    input reset,                   // Reset signal
+    input signed [15:0] x_in,      // Current input sample (16-bit signed fixed-point)
+    output reg [15:0] y_float      // Floating-point output (16-bit)
+
+);
+
+    // Internal variables
+    reg signed [15:0] current_x [0:63]; // Delay line to store 64 input samples
+    reg signed [37:0] acc_sum;          // Accumulator for MAC operation
+    reg signed [37:0] fx_value; 
+    reg [6:0] tap_index;                // Index to track the current tap (0 to 63) 
+    reg signed [37:0] partial_sum[0:3];
+    integer k;
+    integer i;
+
+    // pre-loaded in testench
+    // Filter coefficients (64 taps, 16-bit signed fixed-point)
+    reg signed [15:0] b [0:63];
+    reg [15:0] b_unsigned;
+
+
+    // Define constants for the floating-point format
+    localparam SIGN_BIT_POSITION = 15;
+    localparam EXPONENT_BITS = 5;
+    localparam MANTISSA_BITS = 10;
+    localparam EXPONENT_BIAS = 15;
+    reg sign_bit;
+    reg [4:0] exponent;
+    reg [9:0] mantissa;
+    reg [37:0] abs_value;
+    reg [37:0] shifted_value;
+    integer j, c_file, status;
+    reg found; // Flag to indicate if MSB has been found
+
+    // Process input data and update delay line
+    always @(posedge clk or negedge reset) begin
+        if (!reset) begin
+            // Reset all values
+            acc_sum <= 0;
+            tap_index <= 0;
+            fx_value <= 0;
+	    b[0] = $signed(16731);
+	    b[1] = $signed(17176);
+            b[2] = $signed(63262);
+            b[3] = $signed(20632);
+            b[4] = $signed(55708);
+            b[5] = $signed(14952);
+            b[6] = $signed(1420);
+            b[7] = $signed(31157);
+            b[8] = $signed(12508);
+	    b[9] = $signed(21528);
+	    b[10] = $signed(8318);
+	    b[11] = $signed(33638);
+	    b[12] = $signed(4011);
+	    b[13] = $signed(32115);
+	    b[14] = $signed(18588);
+	    b[15] = $signed(24106);
+	    b[16] = $signed(27045);
+	    b[17] = $signed(53568);
+	    b[18] = $signed(50611);
+	    b[19] = $signed(25977);
+	    b[20] = $signed(23608);
+	    b[21] = $signed(35790);
+   	    b[22] = $signed(25857);
+	    b[23] = $signed(52234);
+	    b[24] = $signed(12140);
+	    b[25] = $signed(18236);
+	    b[26] = $signed(18446);
+	    b[27] = $signed(18557);
+	    b[28] = $signed(63326);
+	    b[29] = $signed(17266);
+	    b[30] = $signed(64043);
+	    b[31] = $signed(16568);
+	    b[32] = $signed(9514);
+	    b[33] = $signed(8963);
+	    b[34] = $signed(46661);
+	    b[35] = $signed(49427);
+	    b[36] = $signed(12540);
+	    b[37] = $signed(47677);
+	    b[38] = $signed(61696);
+	    b[39] = $signed(5004);
+	    b[40] = $signed(41704);
+	    b[41] = $signed(2301);
+	    b[42] = $signed(20131);
+	    b[43] = $signed(56882);
+	    b[44] = $signed(59315);
+	    b[45] = $signed(46463);
+	    b[46] = $signed(34855);
+	    b[47] = $signed(23301);
+	    b[48] = $signed(30108);
+	    b[49] = $signed(19552);
+	    b[50] = $signed(36556);
+	    b[51] = $signed(14501);
+	    b[52] = $signed(28437);
+	    b[53] = $signed(5912);
+	    b[54] = $signed(2794);
+	    b[55] = $signed(38817);
+	    b[56] = $signed(26780);
+	    b[57] = $signed(35123);
+	    b[58] = $signed(21982);
+	    b[59] = $signed(46239);
+	    b[60] = $signed(54360);
+	    b[61] = $signed(38578);
+	    b[62] = $signed(4975);
+	    b[63] = $signed(13614);
+	    
+	// Convert each unsigned value to signed
+            for (i = 0; i < 64; i = i + 1) begin
+                current_x[i] <= 0;
+            end
+        end else begin
+            if (tap_index == 0) begin
+                // Shift delay line and insert new input sample when starting a new MAC operation
+		acc_sum <= partial_sum[0] + partial_sum[1] + partial_sum[2] + partial_sum[3];
+		fx_value <= acc_sum;
+
+                for (i = 63; i > 0; i = i - 1) begin
+                    current_x[i] <= current_x[i-1];
+                end
+                current_x[0] <= x_in; // Store the latest input sample
+	    end
+	    if (tap_index == 64) begin
+            // When all taps are processed, output the result and reset accumulatin
+                tap_index <= 0;
+            end
+	    if (tap_index < 64) begin
+	        tap_index <= tap_index + 1;
+	    end
+        end
+    end
+
+    // FX-to-FP conversion
+    always @(*) begin
+
+        begin
+            // Special case: zero
+            if (fx_value == 0) begin
+                y_float = 16'b0;
+            end else begin
+                // Determine sign bit
+                sign_bit = fx_value[37];
+                abs_value = fx_value[37] ? -fx_value : fx_value; // Get absolute value
+
+                // Find the position of the most significant bit (MSB)
+                exponent = 0;
+                found = 0; // Initialize flag to 0 (MSB not found yet)
+		
+                for (j = 37; j >= 0; j = j - 1) begin
+                    if (!found && abs_value[j] == 1'b1) begin
+                        exponent = j; // Update log2_shift with the position of the MSB
+                        found = 1;      // Set the flag to indicate MSB has been found
+                    end
+                end
+		
+                // Normalize the mantissa (shift to make MSB at position 10)
+                shifted_value = abs_value << (38 - exponent);
+                mantissa = shifted_value[37:28]; // Extract top 10 bits of normalized value
+		
+
+                // Adjust exponent with bias
+                exponent = exponent - 20 + 15;
+
+                // Combine sign, exponent, and mantissa
+                y_float = {sign_bit, exponent[4:0], mantissa[9:0]};
+            end
+        end
+    end
+
+   // parallel multiplication
+    always @(posedge clk or negedge reset) begin
+        if (!reset) begin
+            for (k = 0; k < 4; k = k + 1) begin
+                partial_sum[k] <= 0;
+            end
+        end else if (tap_index > 0 && tap_index <= 16) begin
+                partial_sum[0] <= partial_sum[0] + current_x[tap_index - 1] * b[tap_index - 1];
+                partial_sum[1] <= partial_sum[1] + current_x[15 + tap_index] * b[15 + tap_index];
+                partial_sum[2] <= partial_sum[2] + current_x[31 + tap_index] * b[31 + tap_index];
+                partial_sum[3] <= partial_sum[3] + current_x[47 + tap_index] * b[47 + tap_index];
+        end else if (tap_index == 0) begin
+		for (k = 0; k < 4; k = k + 1) begin
+                	partial_sum[k] <= 0;
+            	end
+	end
+    end
+
+
+endmodule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
