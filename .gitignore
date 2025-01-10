@@ -1,0 +1,15 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+*.bak
+*.swp
+*~
+*.v.bak
+*.tcl~
+*.log
+*.rpt
+*.vcd
+*.wlf
